@@ -30,17 +30,13 @@ clear -x
 #$Host.UI.RawUI.WindowTitle = "Windows Powershell " + $Host.Version;
 
 # Draw welcome screen  
-# Write-Host -ForegroundColor DarkYellow "                _       _                    _       "
-# Write-Host -ForegroundColor DarkYellow "               (_)     | |                  | |      "
-# Write-Host -ForegroundColor DarkYellow "    _ __   ___  _  ___ | | __   ___ ___   __| | ___  "
-# Write-Host -ForegroundColor DarkYellow "   | '_ \ / _ \| |/ _ \| |/ /  / __/ _ \ / _  |/ _ \ "
-# Write-Host -ForegroundColor DarkYellow "   | |_) | (_) | | (_) |   <  | (_| (_) | (_| |  __/ "
-# Write-Host -ForegroundColor DarkYellow "   | .__/ \___/| |\___/|_|\_\  \___\___/ \__,_|\___| "
-# Write-Host -ForegroundColor DarkYellow "   | |        _/ |                                   "
-# Write-Host -ForegroundColor DarkYellow "   |_|       |__/                                    "
-
-Write-Host -ForegroundColor DarkYellow "                _      __                __    "
-Write-Host -ForegroundColor DarkYellow "    ___ ___    (____  / /__  _______ ___/ ___  "
-Write-Host -ForegroundColor DarkYellow "   / _ / _ \  / / _ \/  '_/ / __/ _ / _  / -_) "
-Write-Host -ForegroundColor DarkYellow "  / .__\_____/ /\___/_/\_\  \__/\___\_,_/\__/  "
-Write-Host -ForegroundColor DarkYellow " /_/      |___/                                "
+$terminal = @"
+  _____                   _             _ 
+ |_   _|                 (_)           | |
+   | | ___ _ __ _ __ ___  _ _ __   __ _| |
+   | |/ _ \ '__| '_ ` _ \| | '_ \ / _` | |
+   | |  __/ |  | | | | | | | | | | (_| | |
+   \_/\___|_|  |_| |_| |_|_|_| |_|\__,_|_|
+                                          
+"@
+Write-Host -ForegroundColor DarkYellow $terminal
