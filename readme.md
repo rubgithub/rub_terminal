@@ -1,1 +1,3 @@
-Wezterm configs
+# Wezterm .files
+
+![Projeto em desenvolvimento](image.png)
