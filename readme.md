@@ -1,1 +1,1 @@
-Terminals
+Wezterm configs
