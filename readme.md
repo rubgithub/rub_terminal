@@ -1,4 +1,4 @@
-# Wezterm .files Windows and Linux (comming soon)
+# Wezterm .files Windows
 
 ![Projeto em desenvolvimento](image.png)
 
